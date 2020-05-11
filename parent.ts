@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-parent',
   template: `
-    <app-child [childMessage]="parentMessage"></app-child>
+    <app-child msgTypeRothit="{{localMessageType2}}"></app-child>
   `,
   styleUrls: ['./parent.component.css']
 })
