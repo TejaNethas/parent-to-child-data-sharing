@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-child',
   template: `
-      Say {{ message }}
+      Say {{ msgTypeRothit }}
   `,
   styleUrls: ['./child.component.css']
 })
